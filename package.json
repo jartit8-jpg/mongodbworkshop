@@ -1,0 +1,15 @@
+{
+  "name": "account-workshop",
+  "version": "1.0.0",
+  "description": "ระบบสมาชิกด้วย Node.js + Express + MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "express": "^5.1.0",
+    "mongodb": "^6.18.0"
+  }
+}
